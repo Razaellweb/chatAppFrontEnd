@@ -1,0 +1,211 @@
+body {
+    background-color: black;
+}
+@media only screen and (orientation: landscape) {
+    body {
+        background-color: white;
+    }
+}
+.container {
+    width: 100%;
+    background-color: black;
+    margin: 0 auto;
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    color: white;
+    height: max-content;
+    overflow-x: hidden;
+    max-width: 370px;
+}
+.forms {
+    bottom: 0;
+    position: fixed;
+}
+.receivers {
+    top: -21px;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+}
+@media only screen and (orientation: landscape) {
+    .receivers {
+        top: -21px;
+        position: fixed;
+        width: 15%;
+        background-color: black;
+    }
+}
+.container2 {
+    width: 100%;
+    background-color: black;
+    margin: 0 auto;
+    border-radius: 25px;
+    padding: 15px;
+    color: white;
+    height: max-content;
+    overflow-x: hidden;
+    max-width: 400px;
+}
+.input {
+    width: 80%;
+    border-radius: 8px;
+    text-align: center;
+    background-color: rgba(245, 222, 179, 0.384);
+    height: 40px;
+    margin: 0 auto;
+    font-weight: bolder;
+}
+.btn {
+    width: 250px;
+    height: 40px;
+    color: black;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.571);
+    border-radius: 7px;
+    text-align: center;
+}
+.btn:hover {
+    background-color: rgba(128, 128, 128, 0.477);
+}
+.header {
+    color: rgba(128, 128, 128, 0.33);
+}
+.stickyhead{
+    margin-top: 0;
+    background-color: rgba(0, 0, 255, 0.249);
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
+.span {
+    color: green;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.messageBox {
+    background-color: rgba(128, 128, 128, 0.33);
+    width: 70%;
+    margin-bottom: 15px;
+    border-radius: 25px;
+}
+.sender {
+    font-size: small;
+    color: green;
+}
+.message {
+    font-size: medium;
+}
+.head {
+    font-size: medium;
+}
+.btnDelete {
+    background-color: rgba(255, 0, 0, 0.522);
+    margin-top: 15px;
+    border-radius: 13px;
+    border: none;
+    float: right;
+}
+
+.flexHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(128, 128, 128, 0.471);
+    font-family: sans-serif;
+    font-size: small;
+}
+.signIn {
+    font-family: sans-serif;
+    font-size: medium;
+    color: white;
+    margin-top: 50px;
+}
+.img1 {
+    background: url(./images/astroicecream.jpg);
+    width: 50%;
+    height: 280px;
+    background-size: cover;
+}
+.sign {
+    width: 70%;
+    height: 40px;
+    text-align: center;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.573);
+    border-radius: 8px;
+    margin-top: 38px;
+    font-family: sans-serif;
+}
+.sign:hover {
+    background-color: rgba(128, 128, 128, 0.211);
+}
+.sign2:hover {
+    background-color: rgba(128, 128, 128, 0.251);
+}
+.sign2 {
+    width: 70%;
+    height: 40px;
+    text-align: center;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.573);
+    border-radius: 8px;
+    margin-top: 25px;
+    font-family: sans-serif;
+}
+.para {
+    width: 70%;
+    font-family: sans-serif;
+    font-size: small;
+    color: rgba(128, 128, 128, 0.595);
+}
+.footer {
+    bottom: 0;
+    position: sticky;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.usersListItem {
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgba(128, 128, 128, 0.19);
+    border: none;
+    height: 40px;
+    border-radius: 15px;
+    padding-bottom: 30px;
+    color: rgba(128, 128, 128, 0.748);
+}
+.receiver {
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgba(128, 128, 128, 0.19);
+    border: none;
+    height: fit-content;
+    border-radius: 15px;
+    padding-bottom: 30px;
+    color: rgba(128, 128, 128, 0.748);
+}
+.usersList {
+    list-style: none;
+}
+.line {
+  width: 80%;
+  margin: 0 auto;
+  height: 3px;
+  background-color: gray;
+}
+.sender {
+    width: 70%;
+    margin-bottom: 10px;
+  /**  background-color: rgba(0, 0, 255, 0.378); */
+    background-color: rgb(3, 71, 71);
+    border: none;
+    height: fit-content;
+    border-radius: 15px;
+    padding-bottom: 30px;
+    color: white;
+    /* color: rgba(128, 128, 128, 0.748); */
+    float: right;
+}
