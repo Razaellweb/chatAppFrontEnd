@@ -209,3 +209,43 @@ body {
     /* color: rgba(128, 128, 128, 0.748); */
     float: right;
 }
+
+.loaderx {
+    width: 20px;
+    height: 20px;
+    border-radius: 180%;
+    border: 3px solid transparent;
+    border-left-color: black;
+    border-top-color: black;
+    animation: an1x 1s linear infinite;
+}
+
+.loadex {
+    width: 10px;
+    height: 10px;
+    border-radius: 180%;
+    border: 3px solid transparent;
+    border-left-color: black;
+    border-top-color: black;
+    animation: anx 1s linear infinite;
+}
+
+@keyframes an1x {
+    0% {
+        transform: rotateY(0turn);
+    }
+
+    100% {
+        transform: rotateY(1turn);
+    }
+}
+
+@keyframes anx {
+    0% {
+        transform: rotateY(0turn);
+    }
+
+    100% {
+        transform: rotateX(1turn);
+    }
+}
